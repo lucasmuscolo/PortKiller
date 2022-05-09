@@ -9,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="87.0" prefWidth="385.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Label layoutX="31.0" layoutY="49.0" prefHeight="23.0" prefWidth="63.0" style="-fx-background-color: white;" text="Kill port n°" />
+      <Label fx:id = "_etiqueta",layoutX="31.0" layoutY="49.0" prefHeight="23.0" prefWidth="63.0" style="-fx-background-color: white;" text="Kill port n°" />
       <Button fx:id="_boton" layoutX="259.0" layoutY="48.0" mnemonicParsing="false"
               prefHeight="22.0" prefWidth="96.0" text="KILL" onAction="#portkilling"/>
       <TextField fx:id="_numero" layoutX="106.0" layoutY="48.0" />
